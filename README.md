@@ -2,10 +2,10 @@
 Solves for Quadratic Equations using the Quadratic Formula, and explains how it found its answer.  Outputs answer into 3 different formats: Raw Decimal, Simplified Fraction, and Decimal Rounded to the nearest hundredth.
 
 <b>Linux/Unix Install</b>
-    curl -Ls http://c0deo.us/qfcunixinstall | bash
+    `curl -Ls http://c0deo.us/qfcunixinstall | bash`
 
 <b>Mac OS X Install</b>
-    curl -Ls http://c0deo.us/qfcosxinstall | bash
+    `curl -Ls http://c0deo.us/qfcosxinstall | bash`
 
 After installing run `quadratic-formula-calculator` in a Terminal.
 
