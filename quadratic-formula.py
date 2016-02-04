@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
+# Quadratic Equation Solver #
+# (c) 2016 Jesse Wallace (c0deous) #
+# jessewallace.net
 
 import os, sys, math
 from fractions import Fraction
 
-verbose = True
+verbose = True # Set to False to disable explanations
 
 class bcolors:
     HEADER = '\033[95m'
