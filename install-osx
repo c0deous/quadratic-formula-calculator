@@ -6,8 +6,8 @@ echo ' '
 echo 'You may be asked for your password'
 sudo wget https://raw.githubusercontent.com/c0deous/quadratic-formula-calculator/master/quadratic-formula.py -O /usr/local/bin/quadratic-formula-calculator
 sudo chmod +x /usr/local/bin/quadratic-formula-calculator
-echo 'export PATH=$PATH:/usr/local/bin/quadratic-formula-calculator' >> ~/.bashrc
-source ~/.bashrc
+echo 'export PATH=$PATH:/usr/local/bin/quadratic-formula-calculator' >> ~/.bash_profile
+source ~/.bash_profile
 echo ' '
 echo 'Install complete.'
 echo 'Now run quadratic-formula-calculator'
