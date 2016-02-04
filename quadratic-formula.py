@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 
 # Quadratic Equation Solver #
 # (c) 2016 Jesse Wallace (c0deous) #
@@ -68,7 +69,7 @@ def main():
     vr(' ')
     vr('(-' + var_bs + '±√' + var_bs + '²-4(' + var_as + ')(' + var_cs + '))/2(' + var_as + ') - Substitute') # vr() tells steps in solving equation 
     equation_1 = -var_b # -b outside sqrt
-    equation_2 = var_b ** 2 #-b^2 part inside sqrt
+    equation_2 = var_b ** 2 #b^2 part inside sqrt
     equation_2b = 2 * var_a # The /2a part at the end
     equation_3 = 4 * var_a * var_c # 4*a*c inside sqrt
     equation_4 = equation_2 - equation_3 # b^2-4ac inside sqrt
