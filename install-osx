@@ -4,7 +4,7 @@ echo ' '
 echo 'Installing Quadratic Formula Calculator (Mk. I) by Jesse Wallace (c0deous)' 
 echo ' '
 echo 'You may be asked for your password'
-sudo wget https://raw.githubusercontent.com/c0deous/quadratic-formula-calculator/master/quadratic-formula.py -O /usr/local/bin/quadratic-formula-calculator
+sudo curl -s https://raw.githubusercontent.com/c0deous/quadratic-formula-calculator/master/quadratic-formula.py -o /usr/local/bin/quadratic-formula-calculator
 sudo chmod +x /usr/local/bin/quadratic-formula-calculator
 echo 'export PATH=$PATH:/usr/local/bin/quadratic-formula-calculator' >> ~/.bash_profile
 source ~/.bash_profile
